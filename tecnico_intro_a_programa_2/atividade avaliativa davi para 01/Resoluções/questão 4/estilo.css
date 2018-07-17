@@ -1,0 +1,22 @@
+body{
+	background: black;
+}
+#form {
+	width: 200px;
+	margin: auto;
+	font-family: "Courier New";
+	border-radius: 5px;
+	background:#555555;
+	font-size: 10pt;
+	color: #999999;
+}
+
+#nome, #email, #fone, #endereço{
+	margin-left: 4px;
+}
+
+#leg {
+	text-align: left;
+	font-size: 15pt;
+	color: #999999;
+}

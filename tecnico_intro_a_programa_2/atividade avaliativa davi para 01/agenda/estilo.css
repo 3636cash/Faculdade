@@ -1,0 +1,15 @@
+body{
+	background: black;
+}
+#form {
+	width: 60px;
+	margin: auto;
+	font-family: "Courier New";
+	border-radius: 5px;
+	background:-webkit-gradient(linear, 93% 0%, 10% 21%, from(#101728), to(#77B3DC));
+	font-size: 15pt;
+}
+
+#cContato, #cFone, #cEmail{
+	margin-left:80px;
+}

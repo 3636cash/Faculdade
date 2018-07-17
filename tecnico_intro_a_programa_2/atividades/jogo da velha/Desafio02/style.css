@@ -1,0 +1,50 @@
+div{
+	text-align: center;
+}
+
+fieldset{
+	width: 330px;
+	margin: auto;
+}
+
+#play1{
+	color:red;
+}
+
+#play2{
+	color:blue;
+}
+
+#ambiente{
+	background-image: url("ifce.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity:0.5;
+}
+
+.linha{
+	height:100px;
+	width:320px;
+	border-bottom:solid 1px;
+	
+}
+
+.linha1{
+	height:100px;*/
+	border:none;
+	
+}
+
+.casa{
+	width:100px;
+	height:100%;
+	border-right:solid 1px;
+	float:left;
+}
+
+.casa1{
+	width:100px;
+	height:100%;
+	border:none;
+	float:left;
+}

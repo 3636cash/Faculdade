@@ -1,0 +1,11 @@
+#grupoDados{
+	border-color:#FF0000; /* a cor da borda */
+	border-radius: 5px ;
+	background: yellow; /*mudar a cor de fundo*/
+	box-shadow: 5px 5px black;	
+}
+
+legend{
+	color: darkblue; /*Mudar a cor da fonte*/
+	background: white;
+}

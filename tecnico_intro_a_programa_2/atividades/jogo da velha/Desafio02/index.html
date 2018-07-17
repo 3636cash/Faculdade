@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>O desafio do Jogo da Velha</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript" src="logica.js"/>
+	</script>
+</head>
+<body>
+	<fieldset> <!--Score com informações dos jogadores-->
+		<legend>SCORE</legend>
+		<label for="score1" id="play1">_</label>
+		<input type="number" id="score1" disabled="disabled" value="0"/></br>
+		<label for="score2" id="play2">_</label>
+		<input type="number" id="score2" disabled="disabled" value="0"/></br>
+		<button onclick="addPlayers();">Adicionar Jogadores</button>
+		<button onclick="novaPartida();">Nova Partida</button>
+	</fieldset>
+	<fieldset id="jogo"><!--Ambiente do jogo-->
+		<legend>JOGO DA VELHA</legend>
+		<div id="ambiente">
+		<div class="linha"> <!--Linha inicial de casas-->
+			<div class="casa" id="casa1" onclick="registraJogada(1);">1</div> 
+			<div class="casa" id="casa2" onclick="registraJogada(2);">2</div> 
+			<div class="casa1" id="casa3" onclick="registraJogada(3);">3</div> 
+		</div> 
+		<div class="linha"> <!--Linha do meio de casas-->
+			<div class="casa" id="casa4" onclick="registraJogada(4);">4</div> 
+			<div class="casa" id="casa5" onclick="registraJogada(5);">5</div> 
+			<div class="casa1" id="casa6"onclick="registraJogada(6);">6</div> 
+		</div> 
+		<div class="linha1"> <!--Linha final de casas-->
+			<div class="casa" id="casa7" onclick="registraJogada(7);">7</div> 
+			<div class="casa" id="casa8" onclick="registraJogada(8);">8</div> 
+			<div class="casa1" id="casa9"onclick="registraJogada(9);">9</div> 
+		</div>
+	    </div>
+	</fieldset>
+</body>
+</html>
